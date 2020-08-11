@@ -14,7 +14,7 @@ body {
 	width: 80%;
 	margin: 0 auto;
 	padding: 1em;
-	background-color: #617387;
+	background-color: #EFB106;
 	display: flex;
 	flex-flow: row nowrap;
 }
@@ -66,12 +66,11 @@ select {
 button {
 	margin: 2rem 0;
 	background-color: #BB342F;
-	color: black;
+	color: white;
 	border: none;
 	font-size: 1rem;
 	padding: 0.5rem 1rem;
 	border-radius: 10px;
-	font-weight: bold;
 }
 button:hover {
 	background-color: #9A2B27;
