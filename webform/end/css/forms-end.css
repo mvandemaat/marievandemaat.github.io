@@ -14,7 +14,7 @@ body {
 	width: 80%;
 	margin: 0 auto;
 	padding: 1em;
-	background-color: #EFB106;
+	background-color: #617387;
 	display: flex;
 	flex-flow: row nowrap;
 }
@@ -45,9 +45,10 @@ legend {
 }
 label {
 	display: block;
+	border-radius: 10px;
 }
 input:not([type="radio"]):not([type="checkbox"]), 
-textarea {
+textarea, select {
 	display: block;
 	margin-bottom: 2rem;
 	width: 20rem;
@@ -55,6 +56,7 @@ textarea {
 	font-size: 1em;
 	border-radius: 10px;
 	padding: 0 1rem;
+	border: none;
 }
 textarea {
 	height: 10rem;
@@ -65,12 +67,13 @@ select {
 }
 button {
 	margin: 2rem 0;
-	background-color: #BB342F;
-	color: white;
+	background-color: #Be5655ce;
+	color: black;
 	border: none;
 	font-size: 1rem;
 	padding: 0.5rem 1rem;
 	border-radius: 10px;
+	font-weight: bold;
 }
 button:hover {
 	background-color: #9A2B27;
